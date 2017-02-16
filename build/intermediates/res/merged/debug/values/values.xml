@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#003399</color>
+    <color name="common_blue">#ff03a8f1</color>
+    <color name="common_color_primary">#383838</color>
+    <color name="deep_bule">#011b3f</color>
+    <color name="deep_bule2">#11478f</color>
+    <color name="deep_bule3">#03367b</color>
+    <color name="deep_bule4">#50092244</color>
+    <color name="dialog_backgroup_blue">#031251</color>
+    <color name="divider">#dddddd</color>
+    <color name="gray_light">#b6b6b6</color>
+    <color name="light_bule">#1755aa</color>
+    <dimen name="activity_btn_height">50dp</dimen>
+    <dimen name="activity_btn_width">330dp</dimen>
+    <dimen name="activity_et_height">50dp</dimen>
+    <dimen name="activity_et_width">330dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="app_name">TvLauncher</string>
+    <string name="auth_error">用户认证失败,点击确定重新认证。</string>
+    <string name="confirm">确认</string>
+    <string name="empty_pwd_tip">密码为空</string>
+    <string name="empty_username_tip">用户名为空</string>
+    <string name="goback_cancel">按“返回”键取消</string>
+    <string name="prompt">提示</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="AppTheme2" parent="android:Theme.Light">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="commonDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.2</item>
+    </style>
+</resources>

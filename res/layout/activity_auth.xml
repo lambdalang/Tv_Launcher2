@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/deep_bule"
+    tools:context="com.kxy.tl.activity.AuthActivity">
+
+    <RelativeLayout
+        android:layout_width="470dp"
+        android:layout_height="340dp"
+        android:background="@drawable/layout_propmpt_shap"
+        android:layout_centerInParent="true">
+        <LinearLayout
+            android:id="@+id/propmpt_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:background="@drawable/layout_propmpt_title"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/text_propmpt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:padding="10dp"
+                android:textSize="32sp"
+                android:text="@string/prompt"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout_horizontalbar"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_below="@+id/propmpt_layout"
+            android:background="@color/deep_bule4"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_horizontalbar"
+            android:layout_marginLeft="40dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/auth_errText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:layout_marginTop="50dp"
+                android:text="@string/auth_error"/>
+            <TextView
+                android:id="@+id/text_goback_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="20dp"
+                android:text="@string/goback_cancel"
+                android:textSize="20sp"
+                />
+        </LinearLayout>
+        <Button
+            android:id="@+id/auth_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="@string/confirm"
+            android:focusable="true"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/btn_confirm_shap"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

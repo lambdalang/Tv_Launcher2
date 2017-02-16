@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\build\\intermediates\\res\\merged\\debug\\layout\\video_surface.xml",
+        "source": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\layout\\video_surface.xml"
+    },
+    {
+        "merged": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_tipinfo.xml",
+        "source": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\layout\\dialog_tipinfo.xml"
+    },
+    {
+        "merged": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\build\\intermediates\\res\\merged\\debug\\layout\\pic_dispaly.xml",
+        "source": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\layout\\pic_dispaly.xml"
+    },
+    {
+        "merged": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\build\\intermediates\\res\\merged\\debug\\layout\\activity_auth.xml",
+        "source": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\layout\\activity_auth.xml"
+    },
+    {
+        "merged": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\build\\intermediates\\res\\merged\\debug\\layout\\activity_notify.xml",
+        "source": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\layout\\activity_notify.xml"
+    }
+]

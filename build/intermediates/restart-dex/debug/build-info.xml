@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="19"
+    density="hdpi"
+    format="7"
+    timestamp="87472822877559"
+    token="-755738738084876565"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="672" />
+    <task
+        name="instant-run-dex"
+        duration="487" />
+    <task
+        name="instant-run-transform"
+        duration="73" />
+    <task
+        name="verifier"
+        duration="11" />
+
+    <artifact
+        location="D:\Android\TvLauncher\gongzhongban_tv_launcher\TvLauncher\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
+
+    <build timestamp="87404010715263" >
+        <artifact
+            location="D:\Android\TvLauncher\gongzhongban_tv_launcher\TvLauncher\build\outputs\apk\TvLauncher-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="87472822877559"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\Android\TvLauncher\gongzhongban_tv_launcher\TvLauncher\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>

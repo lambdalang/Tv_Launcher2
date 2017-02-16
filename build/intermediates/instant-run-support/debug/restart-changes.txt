@@ -1,0 +1,4 @@
+CHANGED,D:\Android\TvLauncher\gongzhongban_tv_launcher\TvLauncher\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\vunke\tl\service\NotifyService$4.class
+CHANGED,D:\Android\TvLauncher\gongzhongban_tv_launcher\TvLauncher\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\vunke\tl\service\NotifyService$6.class
+CHANGED,D:\Android\TvLauncher\gongzhongban_tv_launcher\TvLauncher\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\vunke\tl\service\NotifyService$5.class
+CHANGED,D:\Android\TvLauncher\gongzhongban_tv_launcher\TvLauncher\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\vunke\tl\service\NotifyService.class

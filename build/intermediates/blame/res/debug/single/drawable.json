@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_propmpt_title.xml",
+        "source": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\drawable\\layout_propmpt_title.xml"
+    },
+    {
+        "merged": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\build\\intermediates\\res\\merged\\debug\\drawable\\et_pwd_sel.xml",
+        "source": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\drawable\\et_pwd_sel.xml"
+    },
+    {
+        "merged": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\build\\intermediates\\res\\merged\\debug\\drawable\\et_name_sel.xml",
+        "source": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\drawable\\et_name_sel.xml"
+    },
+    {
+        "merged": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_confirm_shap.xml",
+        "source": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\drawable\\btn_confirm_shap.xml"
+    },
+    {
+        "merged": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\build\\intermediates\\res\\merged\\debug\\drawable\\common_btn_sel.xml",
+        "source": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\drawable\\common_btn_sel.xml"
+    },
+    {
+        "merged": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_login_sel.xml",
+        "source": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\drawable\\btn_login_sel.xml"
+    },
+    {
+        "merged": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_propmpt_shap.xml",
+        "source": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\drawable\\layout_propmpt_shap.xml"
+    }
+]

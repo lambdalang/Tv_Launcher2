@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TvLauncher</string>
+    <string name="empty_username_tip">用户名为空</string>
+    <string name="empty_pwd_tip">密码为空</string>
+    <string name="prompt">提示</string>
+    <string name="goback_cancel">按“返回”键取消</string>
+    <string name="auth_error">用户认证失败,点击确定重新认证。</string>
+    <string name="confirm">确认</string>
+</resources>
