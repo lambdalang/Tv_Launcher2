@@ -112,7 +112,7 @@ public class NotifyService extends Service {
 					GetUserToken();
 					initData();
 				} else {
-					LogUtil.d("tv_launcher", "network not connect");
+					LogUtil.i("tv_launcher", "network not connect");
 					handler.sendEmptyMessageDelayed(0x1211, 2000);
 				}
 				break;

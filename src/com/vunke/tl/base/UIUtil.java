@@ -256,7 +256,8 @@ public class UIUtil {
 			LogUtil.i("tv_launcher", "get AuthCode : AUTH_CODE_AUTH_INIT");
 			StartAuthActivity(context);
 		}
-		Auth.setAuthCode(context, Auth.AUTH_CODE_AUTH_INIT);
+		Auth.RemoveAuthCode(context);
+		//Auth.RemoveAuthErrCode(context);
 	}
 
 	/**

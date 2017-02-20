@@ -11,7 +11,7 @@ public class Config {
 	 */
 	public static final String BASE_WS_URL = "http://222.246.132.231:8298/";
 	public static final String BASE_WS_URL2 = "http://124.232.136.239:8080/tvlauncher/";
-	public static final String BASE_WS_URL3 = "http://192.168.28.201:8080/";
+	public static final String BASE_WS_URL3 = "http://124.232.135.225:8082/AppStoreTV4/";
 //	public static final String BASE_WS_URL2 = "http://192.168.28.201:8080/tvlauncher/";
 //	public static final String BASE_WS_URL2 = "http://192.168.0.114:8080/tvlauncher/";
 	// public static final String BASE_WS_URL2 =

@@ -88,10 +88,12 @@ public final class R {
         public static final int app_name=0x7f070000;
         public static final int auth_error=0x7f070001;
         public static final int confirm=0x7f070002;
-        public static final int empty_pwd_tip=0x7f070003;
-        public static final int empty_username_tip=0x7f070004;
-        public static final int goback_cancel=0x7f070005;
-        public static final int prompt=0x7f070006;
+        public static final int determin=0x7f070003;
+        public static final int empty_pwd_tip=0x7f070004;
+        public static final int empty_username_tip=0x7f070005;
+        public static final int goback_cancel=0x7f070006;
+        public static final int please_enter_code=0x7f070007;
+        public static final int prompt=0x7f070008;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 

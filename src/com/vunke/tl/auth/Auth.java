@@ -539,7 +539,7 @@ public class Auth {
 	}
 	public static int getAuthCode(Context context,int defultVaule){
 		SharedPreferences sp = context.getSharedPreferences(context.getPackageName(),Context.MODE_APPEND);
-		int AuthCode = sp.getInt("Auth",defultVaule);
+		int AuthCode = sp.getInt("AuthCode",defultVaule);
 		if(AuthCode == AUTH_CODE_AUTH_SUCCESS){
 			LogUtil.i("tv_launcher","auth success code:"+AuthCode);
 			return AUTH_CODE_AUTH_SUCCESS;
@@ -554,7 +554,7 @@ public class Auth {
 	}
 	public static void setAuthCode(Context context,int vaule){
 		SharedPreferences sp = context.getSharedPreferences(context.getPackageName(),Context.MODE_APPEND);
-		sp.edit().putInt("Auth",vaule).commit();
+		sp.edit().putInt("AuthCode",vaule).commit();
 	}
 	public static void setAuthErrCode(Context context, String errorCode) {
 		SharedPreferences sp = context.getSharedPreferences(context.getPackageName(),Context.MODE_APPEND);
@@ -564,6 +564,15 @@ public class Auth {
 		SharedPreferences sp = context.getSharedPreferences(context.getPackageName(),Context.MODE_APPEND);
 		String AuthErrCode = sp.getString("AuthErrCode",defultVaule);
 		return AuthErrCode;
+	}
+	public static void RemoveAuthCode(Context context){
+		SharedPreferences sp = context.getSharedPreferences(context.getPackageName(),Context.MODE_APPEND);
+		sp.edit().remove("AuthCode").commit();
+	}
+	public static void RemoveAuthErrCode(Context context){
+		SharedPreferences sp = context.getSharedPreferences(context.getPackageName(),Context.MODE_APPEND);
+		sp.edit().remove("AuthErrCode").commit();
+
 	}
 	/**
 	 * 被弃用 获取认证信息

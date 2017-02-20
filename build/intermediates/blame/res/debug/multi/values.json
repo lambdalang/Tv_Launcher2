@@ -387,8 +387,27 @@
                     "startLine": 22,
                     "startColumn": 4,
                     "startOffset": 1025,
+                    "endColumn": 41,
+                    "endOffset": 1062
+                },
+                "from": {
+                    "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 388,
+                        "endColumn": 41,
+                        "endOffset": 425
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1067,
                     "endColumn": 46,
-                    "endOffset": 1067
+                    "endOffset": 1109
                 },
                 "from": {
                     "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\strings.xml",
@@ -403,11 +422,11 @@
             },
             {
                 "to": {
-                    "startLine": 23,
+                    "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 1072,
+                    "startOffset": 1114,
                     "endColumn": 52,
-                    "endOffset": 1120
+                    "endOffset": 1162
                 },
                 "from": {
                     "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\strings.xml",
@@ -422,11 +441,11 @@
             },
             {
                 "to": {
-                    "startLine": 24,
+                    "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 1125,
+                    "startOffset": 1167,
                     "endColumn": 50,
-                    "endOffset": 1171
+                    "endOffset": 1213
                 },
                 "from": {
                     "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\strings.xml",
@@ -441,11 +460,30 @@
             },
             {
                 "to": {
-                    "startLine": 25,
+                    "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 1176,
+                    "startOffset": 1218,
+                    "endColumn": 57,
+                    "endOffset": 1271
+                },
+                "from": {
+                    "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 430,
+                        "endColumn": 57,
+                        "endOffset": 483
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1276,
                     "endColumn": 37,
-                    "endOffset": 1209
+                    "endOffset": 1309
                 },
                 "from": {
                     "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\strings.xml",
@@ -460,12 +498,12 @@
             },
             {
                 "to": {
-                    "startLine": 26,
+                    "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 1214,
-                    "endLine": 32,
+                    "startOffset": 1314,
+                    "endLine": 34,
                     "endColumn": 12,
-                    "endOffset": 1500
+                    "endOffset": 1600
                 },
                 "from": {
                     "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\styles.xml",
@@ -481,12 +519,12 @@
             },
             {
                 "to": {
-                    "startLine": 33,
+                    "startLine": 35,
                     "startColumn": 4,
-                    "startOffset": 1505,
-                    "endLine": 35,
+                    "startOffset": 1605,
+                    "endLine": 37,
                     "endColumn": 12,
-                    "endOffset": 1660
+                    "endOffset": 1760
                 },
                 "from": {
                     "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\styles.xml",
@@ -502,12 +540,12 @@
             },
             {
                 "to": {
-                    "startLine": 36,
+                    "startLine": 38,
                     "startColumn": 4,
-                    "startOffset": 1665,
-                    "endLine": 42,
+                    "startOffset": 1765,
+                    "endLine": 44,
                     "endColumn": 12,
-                    "endOffset": 2048
+                    "endOffset": 2148
                 },
                 "from": {
                     "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\styles.xml",
@@ -523,12 +561,12 @@
             },
             {
                 "to": {
-                    "startLine": 43,
+                    "startLine": 45,
                     "startColumn": 4,
-                    "startOffset": 2053,
-                    "endLine": 52,
+                    "startOffset": 2153,
+                    "endLine": 54,
                     "endColumn": 12,
-                    "endOffset": 2634
+                    "endOffset": 2734
                 },
                 "from": {
                     "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\styles.xml",

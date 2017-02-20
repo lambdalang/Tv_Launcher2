@@ -8,7 +8,6 @@ import android.widget.TextView;
 import com.kxy.tl.R;
 import com.vunke.tl.auth.Auth;
 import com.vunke.tl.base.BaseActivity;
-import com.vunke.tl.base.UIUtil;
 
 public class AuthActivity extends BaseActivity implements View.OnClickListener{
     private Button auth_confirm;
@@ -34,13 +33,12 @@ public class AuthActivity extends BaseActivity implements View.OnClickListener{
     public void onClick(View v) {
         if(v.getId() == R.id.auth_confirm){
             finish();
-        }else{
-
         }
     }
     @Override
     protected void onDestroy() {
     	super.onDestroy();
-    	Auth.setAuthCode(getApplicationContext(),Auth.AUTH_CODE_AUTH_INIT);
+    	//Auth.RemoveAuthCode(getApplicationContext());
+        Auth.RemoveAuthErrCode(getApplicationContext());
     }
 }

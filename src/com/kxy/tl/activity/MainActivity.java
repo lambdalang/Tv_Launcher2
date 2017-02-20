@@ -57,7 +57,7 @@ public class MainActivity extends BaseActivity implements OnClickListener {
 		main_VersionCode = (TextView) findViewById(R.id.main_VersionCode);
 		main_VersionCode.setText("版本号:"
 				+ UIUtil.getVersionName(getApplicationContext()));
-		LogUtil.i("tv_launcher", "reset play advert");
+		LogUtil.i("tv_launcher",  "reset play advert");
 		SharedPreferencesUtil.setBooleanValue(this,
 				SharedPreferencesUtil.IS_PALYED_ADVERT, false);
 	}
@@ -97,7 +97,7 @@ public class MainActivity extends BaseActivity implements OnClickListener {
 		// }else if(!MyDialog.isShowing()){
 		// MyDialog.show();
 		// }
-		root_ly.setVisibility(View.GONE);
+		root_ly.setVisibility(View.INVISIBLE);
 		LogUtil.i("tv_launcher","send BroadCast to request user info,start time:" + new Date());
 		UIUtil.sendBroadCast(this, Constants.REQUEST_USER_INFO_ACTION,
 				new Intent());
@@ -130,7 +130,7 @@ public class MainActivity extends BaseActivity implements OnClickListener {
 				// MyDialog.cancel();
 				// MyDialog = null;
 				// }
-
+				LogUtil.i("tv_launcher","get action LOAD_USER_INFO_ACTION");
 				String userName = intent.getStringExtra("userName");
 				String userID = intent.getStringExtra("userID");
 				String password = intent.getStringExtra("password");
@@ -146,6 +146,7 @@ public class MainActivity extends BaseActivity implements OnClickListener {
 					root_ly.setVisibility(View.VISIBLE);
 				}
 			} else if (action.equals(Constants.REGISTER_STATUS_ACTION)) {
+				LogUtil.i("tv_launcher","get action REGISTER_STATUS_ACTION");
 				String status = intent.getStringExtra("status");
 				/*
 				 * 0：成功；1：用 户认证码不存在、2：用户逻辑 ID 不存 在；3：用户逻辑 ID 与用户认证码匹配
@@ -180,6 +181,7 @@ public class MainActivity extends BaseActivity implements OnClickListener {
 							+ Constants.ERROR_HELP, null);
 				}
 			} else if (action.equals(Constants.REGISTER_RESULT_ACTION)) {
+				LogUtil.i("tv_launcher","get action REGISTER_RESULT_ACTION");
 				regResult = intent.getStringExtra("result");
 				if (!TextUtils.isEmpty(regResult)) {
 					if (regResult.equals("1") && !TextUtils.isEmpty(regReboot)
@@ -200,6 +202,7 @@ public class MainActivity extends BaseActivity implements OnClickListener {
 				}
 
 			} else if (action.equals(Constants.REGISTER_REBOOT_ACTION)) {
+				LogUtil.i("tv_launcher","get action REGISTER_REBOOT_ACTION");
 				regReboot = intent.getStringExtra("reboot");
 				if (!TextUtils.isEmpty(regReboot)) {
 					if (regReboot.equals("0") && !TextUtils.isEmpty(regResult)

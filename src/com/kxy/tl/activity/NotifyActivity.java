@@ -208,6 +208,7 @@ public class NotifyActivity extends BaseActivity {
 		notfy_webView.setDownloadListener(new MyWebViewDownLoadListener());
 		String pasams = "account="+name;
 		notfy_webView.postUrl(path, pasams.getBytes());
+		//http://124.232.135.239:8088/scene_push_anzhuo/scene_1.jsp
 	}
 
 	/**

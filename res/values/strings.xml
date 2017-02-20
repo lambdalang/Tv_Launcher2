@@ -8,4 +8,6 @@
     <string name="goback_cancel">按“返回”键取消</string>
     <string name="auth_error">用户认证失败,点击确定重新认证。</string>
     <string name="confirm">确认</string>
+    <string name="determin">确  定</string>
+    <string name="please_enter_code">请 输 入 激 活 码</string>
 </resources>

@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
             android:textColor="@android:color/white" 
-            android:text="请 输 入 激 活 码"
+            android:text="@string/please_enter_code"
             android:textSize="16sp"
             />
         <EditText
@@ -42,7 +42,7 @@
             android:layout_height="@dimen/activity_btn_height"
             android:layout_marginTop="40dp"
             android:background="@drawable/btn_login_sel"
-            android:text="确  定"
+            android:text="@string/determin"
             android:textSize="22sp" 
             android:textColor="@android:color/white" />
     </LinearLayout>
