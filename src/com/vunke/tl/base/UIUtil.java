@@ -175,14 +175,6 @@ public class UIUtil {
 	 * @param context
 	 */
 	public static void StartMangGuoEPG(Context context, String user_id) {
-		// 下方用于测试
-		// if(!TextUtils.isEmpty(user_id)){
-		// Intent intent = new Intent(context, AuthActivity.class);
-		// intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-		// context.startActivity(intent);
-		// return;
-		// }
-		// 上方用于测试
 		int AuthCode = Auth.getAuthCode(context, Auth.AUTH_CODE_AUTH_NOT_AUTH);
 		if (AuthCode == Auth.AUTH_CODE_AUTH_ERROR) {
 			LogUtil.i("tv_launcher", "get AuthCode :AUTH_CODE_AUTH_ERROR");
@@ -227,7 +219,11 @@ public class UIUtil {
 					bean.setUserId(localCursor.getString(localCursor
 							.getColumnIndex("user_id")));
 				}
-			} finally {
+			} catch (Exception e){
+				LogUtil.e("tv_launcher","get group_strategy error ,sql select failed");
+				bean.setUserId(user_id.trim());
+				StartAuthActivity(context);
+			}finally {
 				if (localCursor != null)
 					localCursor.close();
 			}
@@ -275,6 +271,17 @@ public class UIUtil {
 	private static void StartLastEpg(Context context, GroupStrategyBean bean) {
 		LogUtil.e("tv_launcher",
 				"get epg_package info failed ,start'up last time epg");
+		if (TextUtils.isEmpty(bean.getUserId())){
+			LogUtil.e("tv_launcher","get user_id is null,start'up mangguo eog");
+			UIUtil.sendBroadCast(context, Constants.ADVERTISING_ACTION,
+					new Intent());// 节目播放业务
+			SharedPreferencesUtil.setBooleanValue(context,
+					SharedPreferencesUtil.IS_PALYED_ADVERT, true);
+			// finish();
+			LogUtil.i("tv_launcher", "send BroadCast to play iptv,start time:"
+					+ new Date());
+			return;
+		}
 		String packageName = getPackageName(context, bean.getUserId(),
 				"com.hunantv.operator");
 		PackageInfo getPackageInfo2 = Auth.GetPackageInfo(context, packageName);

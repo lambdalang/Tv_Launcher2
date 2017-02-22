@@ -12,12 +12,12 @@
         "source": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\drawable-xxhdpi\\dialog_backgroup.9.png"
     },
     {
-        "merged": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\backgooup_dialog.png",
-        "source": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\drawable-xxhdpi\\backgooup_dialog.png"
-    },
-    {
         "merged": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\login_passwd_unfocus.9.png",
         "source": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\drawable-xxhdpi\\login_passwd_unfocus.9.png"
+    },
+    {
+        "merged": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\backgooup_dialog.png",
+        "source": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\drawable-xxhdpi\\backgooup_dialog.png"
     },
     {
         "merged": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\login_btn_normal_bg.9.png",
@@ -44,15 +44,15 @@
         "source": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\drawable-xxhdpi\\login_user_unfocus.9.png"
     },
     {
-        "merged": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
-        "source": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\drawable-xxhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\horizontal_bar.png",
         "source": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\drawable-xxhdpi\\horizontal_bar.png"
     },
     {
         "merged": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\login_btn_click_bg.9.png",
         "source": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\drawable-xxhdpi\\login_btn_click_bg.9.png"
+    },
+    {
+        "merged": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\drawable-xxhdpi\\ic_launcher.png"
     }
 ]

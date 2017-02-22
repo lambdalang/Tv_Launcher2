@@ -355,7 +355,7 @@ public class NotifyService extends Service {
 													getApplicationContext(),
 													bean);
 										}else {
-											LogUtil.i("tv_launcher","get group strategy error,get groupNumber != groupinfo.getUserGroupUmb");
+											LogUtil.i("tv_launcher","get group strategy failed,get groupNumber != groupinfo.getUserGroupUmb");
 										}
 									}
 								}else{

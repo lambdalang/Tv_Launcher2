@@ -1,0 +1,585 @@
+[
+    {
+        "outputFile": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\build\\intermediates\\res\\merged\\release\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 38,
+                    "endOffset": 89
+                },
+                "from": {
+                    "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 1,
+                        "startOffset": 330,
+                        "endColumn": 35,
+                        "endOffset": 364
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 94,
+                    "endColumn": 47,
+                    "endOffset": 137
+                },
+                "from": {
+                    "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 1,
+                        "startOffset": 56,
+                        "endColumn": 44,
+                        "endOffset": 99
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 142,
+                    "endColumn": 54,
+                    "endOffset": 192
+                },
+                "from": {
+                    "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 1,
+                        "startOffset": 180,
+                        "endColumn": 51,
+                        "endOffset": 230
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 197,
+                    "endColumn": 43,
+                    "endOffset": 236
+                },
+                "from": {
+                    "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 1,
+                        "startOffset": 367,
+                        "endColumn": 40,
+                        "endOffset": 406
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 241,
+                    "endColumn": 44,
+                    "endOffset": 281
+                },
+                "from": {
+                    "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 1,
+                        "startOffset": 409,
+                        "endColumn": 41,
+                        "endOffset": 449
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 286,
+                    "endColumn": 44,
+                    "endOffset": 326
+                },
+                "from": {
+                    "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 1,
+                        "startOffset": 452,
+                        "endColumn": 41,
+                        "endOffset": 492
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 331,
+                    "endColumn": 46,
+                    "endOffset": 373
+                },
+                "from": {
+                    "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 1,
+                        "startOffset": 538,
+                        "endColumn": 43,
+                        "endOffset": 580
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 378,
+                    "endColumn": 55,
+                    "endOffset": 429
+                },
+                "from": {
+                    "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 1,
+                        "startOffset": 276,
+                        "endColumn": 52,
+                        "endOffset": 327
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 434,
+                    "endColumn": 41,
+                    "endOffset": 471
+                },
+                "from": {
+                    "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 1,
+                        "startOffset": 122,
+                        "endColumn": 38,
+                        "endOffset": 159
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 476,
+                    "endColumn": 44,
+                    "endOffset": 516
+                },
+                "from": {
+                    "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 1,
+                        "startOffset": 233,
+                        "endColumn": 41,
+                        "endOffset": 273
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 521,
+                    "endColumn": 44,
+                    "endOffset": 561
+                },
+                "from": {
+                    "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 1,
+                        "startOffset": 495,
+                        "endColumn": 41,
+                        "endOffset": 535
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 566,
+                    "endColumn": 50,
+                    "endOffset": 612
+                },
+                "from": {
+                    "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 204,
+                        "endColumn": 50,
+                        "endOffset": 250
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 617,
+                    "endColumn": 50,
+                    "endOffset": 663
+                },
+                "from": {
+                    "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 255,
+                        "endColumn": 50,
+                        "endOffset": 301
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 668,
+                    "endColumn": 49,
+                    "endOffset": 713
+                },
+                "from": {
+                    "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 307,
+                        "endColumn": 49,
+                        "endOffset": 352
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 718,
+                    "endColumn": 49,
+                    "endOffset": 763
+                },
+                "from": {
+                    "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 357,
+                        "endColumn": 49,
+                        "endOffset": 402
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 768,
+                    "endColumn": 57,
+                    "endOffset": 821
+                },
+                "from": {
+                    "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 89,
+                        "endColumn": 57,
+                        "endOffset": 142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 826,
+                    "endColumn": 55,
+                    "endOffset": 877
+                },
+                "from": {
+                    "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 147,
+                        "endColumn": 55,
+                        "endOffset": 198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 882,
+                    "endColumn": 47,
+                    "endOffset": 925
+                },
+                "from": {
+                    "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 47,
+                        "endOffset": 99
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 930,
+                    "endColumn": 55,
+                    "endOffset": 981
+                },
+                "from": {
+                    "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 293,
+                        "endColumn": 55,
+                        "endOffset": 344
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 986,
+                    "endColumn": 38,
+                    "endOffset": 1020
+                },
+                "from": {
+                    "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 349,
+                        "endColumn": 38,
+                        "endOffset": 383
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1025,
+                    "endColumn": 41,
+                    "endOffset": 1062
+                },
+                "from": {
+                    "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 388,
+                        "endColumn": 41,
+                        "endOffset": 425
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1067,
+                    "endColumn": 46,
+                    "endOffset": 1109
+                },
+                "from": {
+                    "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 157,
+                        "endColumn": 46,
+                        "endOffset": 199
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1114,
+                    "endColumn": 52,
+                    "endOffset": 1162
+                },
+                "from": {
+                    "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 104,
+                        "endColumn": 52,
+                        "endOffset": 152
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1167,
+                    "endColumn": 50,
+                    "endOffset": 1213
+                },
+                "from": {
+                    "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 242,
+                        "endColumn": 50,
+                        "endOffset": 288
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1218,
+                    "endColumn": 57,
+                    "endOffset": 1271
+                },
+                "from": {
+                    "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 430,
+                        "endColumn": 57,
+                        "endOffset": 483
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1276,
+                    "endColumn": 37,
+                    "endOffset": 1309
+                },
+                "from": {
+                    "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 204,
+                        "endColumn": 37,
+                        "endOffset": 237
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1314,
+                    "endLine": 34,
+                    "endColumn": 12,
+                    "endOffset": 1600
+                },
+                "from": {
+                    "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 186,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 472
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 1605,
+                    "endLine": 37,
+                    "endColumn": 12,
+                    "endOffset": 1760
+                },
+                "from": {
+                    "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 510,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 665
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 1765,
+                    "endLine": 44,
+                    "endColumn": 12,
+                    "endOffset": 2148
+                },
+                "from": {
+                    "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1258,
+                        "endLine": 36,
+                        "endColumn": 12,
+                        "endOffset": 1641
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 2153,
+                    "endLine": 54,
+                    "endColumn": 12,
+                    "endOffset": 2734
+                },
+                "from": {
+                    "file": "D:\\Android\\TvLauncher\\gongzhongban_tv_launcher\\TvLauncher\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 671,
+                        "endLine": 28,
+                        "endColumn": 12,
+                        "endOffset": 1252
+                    }
+                }
+            }
+        ]
+    }
+]

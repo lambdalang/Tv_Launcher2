@@ -23,8 +23,12 @@ public class AuthActivity extends BaseActivity implements View.OnClickListener{
         auth_confirm = (Button)findViewById(R.id.auth_confirm);
         auth_errText = (TextView)findViewById(R.id.auth_errText);
         auth_confirm.requestFocus();
-        String ErrorCode =  Auth.getAuthErrCode(getApplicationContext(),"1002016");
-        auth_errText.setText("用户认证失败 ["+ErrorCode+"]");
+        String ErrorCode =  Auth.getAuthErrCode(getApplicationContext(),"1002008");
+        if (ErrorCode.equals("1002008")){
+            auth_errText.setText("数据请求超时，请检测网络后再试");
+        }else{
+            auth_errText.setText("用户认证失败 ["+ErrorCode+"]");
+        }
     }
     private void initListener(){
         auth_confirm.setOnClickListener(this);

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Android\TvLauncher\gongzhongban_tv_launcher\TvLauncher\libs\rxandroid-0.24.0.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="42dab493b8f74b164e082f281480c9d493ff89da">
+        <dex dex="D:\Android\TvLauncher\gongzhongban_tv_launcher\TvLauncher\build\intermediates\pre-dexed\release\rxandroid-0.24.0_e7b24da07b215cb3440d34092bad4fd8fe142731.jar" />
+    </item>
+    <item
+        jar="D:\Android\TvLauncher\gongzhongban_tv_launcher\TvLauncher\libs\gson-2.7.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="D:\Android\TvLauncher\gongzhongban_tv_launcher\TvLauncher\build\intermediates\pre-dexed\release\gson-2.7_1eb5fc18a8d3b87979760b2f9034fe56be00b2e9.jar" />
+    </item>
+    <item
+        jar="D:\Android\TvLauncher\gongzhongban_tv_launcher\TvLauncher\libs\android-async-http-1.4.7.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="cd78109020f9ec803ef4e652c17ee4615b03e20a">
+        <dex dex="D:\Android\TvLauncher\gongzhongban_tv_launcher\TvLauncher\build\intermediates\pre-dexed\release\android-async-http-1.4.7_16eb831bbcce7b528125ebbbfc86cb6016a65aec.jar" />
+    </item>
+    <item
+        jar="D:\Android\TvLauncher\gongzhongban_tv_launcher\TvLauncher\libs\okhttputils-1.5.2.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="114099d49670ebc2c1d73ed1e9b31a174d32ffb8">
+        <dex dex="D:\Android\TvLauncher\gongzhongban_tv_launcher\TvLauncher\build\intermediates\pre-dexed\release\okhttputils-1.5.2_0d4a2ad454e64bbba428da7b7615220da00f3e43.jar" />
+    </item>
+    <item
+        jar="D:\Android\TvLauncher\gongzhongban_tv_launcher\TvLauncher\libs\okio-1.9.0.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="D:\Android\TvLauncher\gongzhongban_tv_launcher\TvLauncher\build\intermediates\pre-dexed\release\okio-1.9.0_92cc7203ec7add9713ed8b44dc4d2e0497c26fa7.jar" />
+    </item>
+    <item
+        jar="D:\Android\TvLauncher\gongzhongban_tv_launcher\TvLauncher\libs\okhttp-3.4.1.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="D:\Android\TvLauncher\gongzhongban_tv_launcher\TvLauncher\build\intermediates\pre-dexed\release\okhttp-3.4.1_302378f998aa219f30db1abab3fc5fb8fe629807.jar" />
+    </item>
+    <item
+        jar="D:\Android\TvLauncher\gongzhongban_tv_launcher\TvLauncher\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="e19387dc3b060af32f5401f84fbe246635256955">
+        <dex dex="D:\Android\TvLauncher\gongzhongban_tv_launcher\TvLauncher\build\intermediates\pre-dexed\release\android-support-v4_29762506bbc356d3c9406e7510e51e29fd25bf8e.jar" />
+    </item>
+    <item
+        jar="D:\Android\TvLauncher\gongzhongban_tv_launcher\TvLauncher\libs\rxjava-1.1.0.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="748f0546d5c3c27f1aef07270ffea0c45f0c42a4">
+        <dex dex="D:\Android\TvLauncher\gongzhongban_tv_launcher\TvLauncher\build\intermediates\pre-dexed\release\rxjava-1.1.0_32a6e1f4c5baa27c3202d3ce19ed47f31a8c3f54.jar" />
+    </item>
+    <item
+        jar="D:\Android\TvLauncher\gongzhongban_tv_launcher\TvLauncher\libs\okhttpserver-1.0.2.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="4977bd7eeb3257a09acaa445eedc1f727b8195f2">
+        <dex dex="D:\Android\TvLauncher\gongzhongban_tv_launcher\TvLauncher\build\intermediates\pre-dexed\release\okhttpserver-1.0.2_f28352c0cc39bb69c29b47bf9867157ff962f264.jar" />
+    </item>
+    <item
+        jar="D:\Android\TvLauncher\gongzhongban_tv_launcher\TvLauncher\libs\commons-net-3.3.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="cd0d5510908225f76c5fe5a3f1df4fa44866f81e">
+        <dex dex="D:\Android\TvLauncher\gongzhongban_tv_launcher\TvLauncher\build\intermediates\pre-dexed\release\commons-net-3.3_8ea1036ef31f197a529633cc6fb0915e820d9eb8.jar" />
+    </item>
+
+</items>
