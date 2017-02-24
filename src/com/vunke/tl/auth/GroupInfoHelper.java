@@ -18,7 +18,8 @@ public class GroupInfoHelper extends SQLiteOpenHelper {
 
 	@Override
 	public void onCreate(SQLiteDatabase db) {
-		db.execSQL("create table groupinfo(_id integer not null primary key autoincrement ,body varchar,user_id varchar,create_time varchar)");
+		//db.execSQL("create table groupinfo(_id integer not null primary key autoincrement ,body varchar,user_id varchar,create_time varchar)");
+		db.execSQL("create table groupinfo (_id integer not null primary key autoincrement,name varchar,value varchar)");
 	}
 
 	@Override

@@ -222,7 +222,7 @@ public class UIUtil {
 			} catch (Exception e){
 				LogUtil.e("tv_launcher","get group_strategy error ,sql select failed");
 				bean.setUserId(user_id.trim());
-				StartAuthActivity(context);
+				StartLastEpg(context, bean);
 			}finally {
 				if (localCursor != null)
 					localCursor.close();

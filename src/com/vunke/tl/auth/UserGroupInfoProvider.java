@@ -2,12 +2,13 @@ package com.vunke.tl.auth;
 
 
 import android.content.ContentProvider;
-import android.content.ContentUris;
 import android.content.ContentValues;
 import android.content.UriMatcher;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
+
+import com.vunke.tl.util.LogUtil;
 
 /**
  * 用户分组信息 内容提供者
@@ -32,10 +33,12 @@ public class UserGroupInfoProvider extends ContentProvider {
 	}
 	private GroupInfoHelper dbHelper;
 	private SQLiteDatabase db;
-	private static final String USER_ID = "user_id";
+	private static final String USER_ID = "name";
+	private static final String USER_TOKEN = "value";
+
 //	private static final String BODY = "body";
 //	private static final String _ID = "_id";
-	private static final String CREATE_TIME = "create_time";
+
 
 	@Override
 	public boolean onCreate() {
@@ -55,24 +58,8 @@ public class UserGroupInfoProvider extends ContentProvider {
 			String[] selectionArgs, String orderBy) {
 		Cursor cursor = null;
 		db = dbHelper.getWritableDatabase();
-		switch (mUriMatcher.match(uri)) {
-		case 1:
-			String sql;
-			if (selectionArgs!=null&&selectionArgs.length!=0) {
-				sql = "select * from "+TABLE_NAME+" where "+USER_ID+" = '" +selectionArgs[0]+"'" ;
-			}else {
-				sql = "select * from "+TABLE_NAME;
-			}
-			sql = sql + " order by "+CREATE_TIME+" desc";
-			cursor = db.rawQuery(sql , null);
-			/*cursor = db.query(TABLE_NAME, null, sql, null,
-					null, null, "create_time des ");*/
-			break;
-			default :
-			
-			break;
-		}
-	
+		String sql = "select * from "+TABLE_NAME;
+		cursor = db.rawQuery(sql , null);
 		return cursor;
 	}
 
@@ -92,21 +79,13 @@ public class UserGroupInfoProvider extends ContentProvider {
 	@Override
 	public Uri insert(Uri uri, ContentValues values) {
 		db = dbHelper.getWritableDatabase();
-		Cursor cursor = db.rawQuery("select "+USER_ID+" from " + TABLE_NAME
-				+ " where "+USER_ID+" = '" + values.get(USER_ID) + "'", null);
-		// db.query(true, TABLE_NAME, new String[] {
-		// "body", "user_id", "create_time" }, null, null, "user_id", null,
-		// null, null, null);
-		if (cursor.moveToNext()) {// 有下一个 ，更新
-			String userID = values.get(USER_ID).toString();
-			db.update(TABLE_NAME, values, USER_ID+"=?", new String[] { userID });
-		} else {// 否则 插入数据
+
+		//插入数据
 			switch (mUriMatcher.match(uri)) {
 			case 1:
-				db.insert(TABLE_NAME, null, values);
+				long c = db.insert(TABLE_NAME, null, values);
+				LogUtil.i("tv_launcher","insert success:"+c);
 				break;
-
-			}
 		}
 		// db.execSQL("delete from groupinfo where rowid not in(select max(rowid) from groupinfo group by user_id)");
 		return uri;
@@ -116,16 +95,7 @@ public class UserGroupInfoProvider extends ContentProvider {
 	public int delete(Uri uri, String selection, String[] selectionArgs) {
 		int number = 0;
 		db = dbHelper.getWritableDatabase();
-		switch (mUriMatcher.match(uri)) {
-		case 1:
-			number = db.delete(TABLE_NAME, selection, selectionArgs);
-		case 2:
-			long id = ContentUris.parseId(uri);
-			selection = (selection != null || "".equals(selection.trim()) ? USER_ID
-					+ "=" + id
-					: selection + "and" + USER_ID + "=" + id);
-			number = db.delete(TABLE_NAME, selection, selectionArgs);
-		}
+		number = db.delete(TABLE_NAME, selection, selectionArgs);
 		return number;
 	}
 
@@ -134,17 +104,7 @@ public class UserGroupInfoProvider extends ContentProvider {
 			String[] selectionArgs) {
 		int number = 0;
 		db = dbHelper.getWritableDatabase();
-		switch (mUriMatcher.match(uri)) {
-		case 1:
-			number = db.update(TABLE_NAME, values, selection, selectionArgs);
-			break;
-		case 2:
-			long id = ContentUris.parseId(uri);
-			selection = (selection != null || "".equals(selection.trim()) ? USER_ID
-					+ "=" + id
-					: selection + "and" + USER_ID + "=" + id);
-			number = db.update(TABLE_NAME, values, selection, selectionArgs);
-		}
+		number = db.update(TABLE_NAME, values, selection, selectionArgs);
 		return number;
 	}
 

@@ -272,8 +272,8 @@ public class NotifyService extends Service {
 								if (!TextUtils.isEmpty(groupInfo
 										.getUserGroupNmb())) {
 									Auth.setAuthCode(getApplicationContext(),Auth.AUTH_CODE_AUTH_SUCCESS);
-									Auth.INSERT(getApplicationContext(), t,
-											authInfo);
+									Auth.INSERT(getApplicationContext(),
+											authInfo,groupInfo);
 								}
 								// 根据不同的userGroupNum 启动不同的EPG
 								GetGroupInfo(groupInfo);
@@ -355,7 +355,7 @@ public class NotifyService extends Service {
 													getApplicationContext(),
 													bean);
 										}else {
-											LogUtil.i("tv_launcher","get group strategy failed,get groupNumber != groupinfo.getUserGroupUmb");
+											LogUtil.i("tv_launcher","groupNumber != groupinfo.getUserGroupUmb");
 										}
 									}
 								}else{
